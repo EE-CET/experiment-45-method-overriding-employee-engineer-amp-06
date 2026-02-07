@@ -8,8 +8,9 @@ class Employee {
 class Engineer extends Employee {
     void display()
     {
-        super.display();
+       
         System.out.println("Name of class is Engineer");
+         super.display();
     }
    
 }
